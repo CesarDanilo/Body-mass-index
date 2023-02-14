@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+:root {
+    --first-color: #A7BAF2;
+    --second-color: #778fd9b2;
+    --third-color: #6273D9;
+    --fourth-color: #3B42BF;
+    --first-colorFonts: #202020;
+    --second-colorFonts: #F2F2F2;
+}   
+/*
+    font: Montserrat regular 400
+*/
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+body {
+    background-image: url('/assets/img/background.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+
+}
+
+.main {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 50px;
+
+    background-color: transparent ;
+    backdrop-filter: blur(25px);
+    background-color: #ffffff11;
+}
+
+table {
+    width: 500px;
+    height: auto;
+    border: 1px solid var(--first-color);
+    border-radius: 10px;
+}
+
+.linha {
+    display: flex;
+	justify-content: space-between;
+}
+
+.linha th{
+    height: auto;
+    width: 150px;
+    color: var(--first-colorFonts);
+    font-weight: 900;
+}
+
+.linha td{
+    height: auto;
+    width: 150px;
+    text-align: center;
+    color: var(--first-colorFonts);
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.peso {
+    width: 80px;
+    height: 20px;
+    margin: 25px;
+    text-align: center;
+    color: var(--first-colorFonts);
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff62;
+}
+
+.peso:hover {
+    width: 80px;
+    height: 20px;
+    margin: 25px;
+    text-align: center;
+    color: var(--first-colorFonts);
+    border: none;
+    border-radius: 5px;
+
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    background-color: #ffffff05;
+}
+
+.altura {
+    width: 80px;
+    height: 20px;
+    margin: 25px;
+    text-align: center;
+    color: var(--first-colorFonts);
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff62;
+}
+
+.altura:hover {
+    width: 80px;
+    height: 20px;
+    margin: 25px;
+    text-align: center;
+    color: var(--first-colorFonts);
+    border: none;
+    border-radius: 5px;
+    
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    background-color: #ffffff05;
+}
+
+.form button {
+    width: 75px;
+    height: 25px;
+    
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #ffffff62;
+}
+
+.form button:hover {
+    width: 75px;
+    height: 25px;
+
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    background-color: #ffffff05;
+}
